@@ -1,0 +1,107 @@
+body {
+    background-color: rgba(255, 255, 255);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(40, 40, 40);
+    /*margin-left: 15%;
+    margin-right: 15%;*/
+}
+
+/*navigation bar*/
+ul#navigationbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: rgb(100, 220, 230);*/
+    background-color: rgb(40, 40, 40)
+}
+
+#navigationbar input[type=text] {
+    float: right;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+}
+
+.bar {
+    float: left;
+}
+
+.bar a{
+    display: block;
+    text-align: center;
+    padding:20px;
+    color: white;
+    text-decoration: none;
+}
+
+.bar a:hover {
+    background-color:rgb(0, 0, 0);
+    line-height: 15px;
+}
+
+/*end of navigation bar*/
+
+/*donation page*/
+#donationheader {
+    text-align: left;
+    margin-left: 5%;
+}
+
+/*card*/
+.donatecard {
+    /*background-color: rgb(153, 181, 204);*/
+    background-color: rgb(255, 248, 231);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    height: 300px;
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 3%;
+  }
+  
+.donatecard .btmcontainer {
+    padding: 2px 10px;
+}
+
+.btmcontainer a{
+    background-color: white;
+    border: 2px solid rgb(40, 40, 40);
+    border-radius: 5px;
+    color:rgb(40, 40, 40);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+.btmcontainer a:hover{
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+
+/* end of card */
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 1px red solid;
+}
+.image2 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border: 1px green solid;
+}
