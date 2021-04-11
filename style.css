@@ -100,16 +100,205 @@ ul#navigationbar {
     position: relative;
     top: 0;
     left: 0;
-}
-.image1 {
+  }.image1 {
     position: relative;
-    top: 0;
-    left: 0;
-    border: 1px red solid;
-}
-.image2 {
+    top: 0px;
+    left: 0px;
+  }.image2 {
     position: absolute;
-    top: 30px;
-    left: 30px;
-    border: 1px green solid;
+    top: 0px;
+    left: 0px;
+  }.image3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image5 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image6 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image7 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image8 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image9 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image10 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image11 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image12 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image13 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image14 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image15 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image16 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image17 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image18 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image19 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image20 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image21 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image22 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image23 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image24 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image25 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image26 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image27 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image28 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image29 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image30 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image31 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image32 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image33 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image34 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image35 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image36 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }.image37 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+
+.story-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 0.5%;
+}
+
+.story-card {
+    background: beige;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    height: 328.5px;
+    width: 390px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+
+.story-container {
+    background-color: beige;
+    /*border: 2px solid rgb(40, 40, 40);
+    border-radius: 5px;*/
+    color:rgb(40, 40, 40);
+    padding: 10px 20px;
+    font-size: small;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/*resource*/
+.resource-img{
+
+    max-width: 100%;
+}
+
+.resource-text {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: left;
+}
+
+.resource-container {
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    flex-flow: row wrap;
 }
