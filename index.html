@@ -8,6 +8,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Stop Asian Hate</title>
 </head>
+<body>
+
+    <h1 class=".title">Stop Asian Hate</h1>
+
+    <ul id="navigationbar">
+        <li class="bar"><a href="index.html">Home</a></li>
+        <li class="bar"><a href="stories.html">Stories</a></li>
+        <li class="bar"><a href="donations.html">Donations</a></li>
+        <li class="bar"><a href="resources.html">Resources</a></li>
+        <li class="bar"><a href="takeaction.html">Take Action</a></li>
+        <input type="text" placeholder="Search...">
+    </ul>
+
+    <br>
 
 <div class="parent">
     <img class="image1" id="whitemale" src="https://i.postimg.cc/PLgbcg8z/whitemale.png" />
@@ -46,104 +60,82 @@
     <img class="image34" id="pointynose" src="https://i.postimg.cc/4Kmwjv2Z/pointynose.png" />
     <img class="image35" id="thinmouth" src="https://i.postimg.cc/xXdPby2H/thinmouth.png" />
     <img class="image36" id="fullmouth" src="https://i.postimg.cc/YhY5s7G8/fullmouth.png" />
-    <img class="image37" id="glasses" src="https://i.postimg.cc/WtJCdVnj/glasses.png" />
+    <img class="image37" id="glassespic" src="https://i.postimg.cc/WtJCdVnj/glasses.png" />
+  
   </div>
+       <label for="genders">Select the gender:</label>
+       <select name="genders" onchange="selectTemplate()" id="genders" >
+           <option value="male">Male</option>
+           <option value="female">Female</option>
+       </select>
+  <br>
+       <label for="races">Select the race:</label>
+       <select name="races" onchange="selectTemplate()" id="races" >
+           <option value="white">White</option>
+           <option value="black">Black</option>
+           <option value="asian">Asian</option>
+           <option value="hispanic">Hispanic</option>
+       </select>
+  <br>
+       <label for="eyecolors">Select the eye color:</label>
+       <select name="eyecolors" onchange="selectEyeColor()" id="eyecolors" >
+           <option value="blackbrown">Black/Brown</option>
+           <option value="green">Green</option>
+           <option value="blue">Blue</option>
+       </select>
+  <br>
+       <label for="eyebrows">Select the eyebrows:</label>
+       <select name="eyebrows" onchange="selectEyebrow()" id="eyebrows" >
+           <option value="curved">Curved</option>
+           <option value="straight">Straight</option>
+           <option value="angled">Angled</option>
+       </select>
+  <br>
+  
+       <label for="noses">Select the nose:</label>
+       <select name="noses" onchange="selectNose()" id="noses" >
+           <option value="pointy">Pointy</option>
+           <option value="round">Round</option>
+       </select>
+  <br>
+  
+       <label for="mouths">Select the mouth:</label>
+       <select name="mouths" onchange="selectMouth()" id="mouths" >
+           <option value="full">Full</option>
+           <option value="thin">Thin</option>
+       </select>
+  <br>
+  
+       <label for="glasses">Glasses or no glasses?:</label>
+       <select name="glasses" onchange="selectGlasses()" id="glasses" >
+           <option value="yesglasses">Glasses</option>
+           <option value="noglasses">No glasses</option>
+       </select>
+  <br>
+  
+       <label for="hairlengths">Select the hair length:</label>
+       <select name="hairlengths" onchange="selectHair()" id="hairlengths" >
+           <option value="nohair">No hair</option>
+           <option value="shorthair">Short hair</option>
+           <option value="mediumhair">Medium hair</option>
+           <option value="longhair">Long hair</option>
+       </select>
+  <br>
+  
+       <label for="hairtypes">Select the hair type:</label>
+       <select name="hairtypes" onchange="selectHair()" id="hairtypes" >
+           <option value="curly">Curly</option>
+           <option value="straight">Straight</option>
+       </select>
+  <br>
+  
+       <label for="haircolors">Select the hair color:</label>
+       <select name="haircolors" onchange="selectHair()" id="haircolors" >
+           <option value="black">Black</option>
+           <option value="brown">Brown</option>
+           <option value="blonde">Blonde</option>
+       </select>
+  <br>
 
-<body>
-
-    <h1 class="title">Stop AAPI Hate</h1>
-
-    <ul id="navigationbar">
-        <li class="bar"><a href="index.html">Home</a></li>
-        <li class="bar"><a href="stories.html">Stories</a></li>
-        <li class="bar"><a href="donations.html">Donations</a></li>
-        <li class="bar"><a href="resources.html">Resources</a></li>
-        <li class="bar"><a href="takeaction.html">Take Action</a></li>
-        <input type="text" placeholder="Search...">
-    </ul>
-
-     <div class="parent">
-         <img class="image1" src="https://placehold.it/50" />
-         <img class="image2" src="https://placehold.it/100" />
-     </div>
-
-     <label for="genders">Select the gender:</label>
-     <select name="genders" id="genders" >
-         <option value="male">Male</option>
-         <option value="female">Female</option>
-     </select>
-     <br>
-
-     <label for="races">Select the race:</label>
-     <select name="races" id="races" >
-         <option value="white">White</option>
-         <option value="black">Black</option>
-         <option value="asian">Asian</option>
-         <option value="hispanic">Hispanic</option>
-     </select>
-     <br>
-
-     <label for="eyecolors">Select the eye color:</label>
-     <select name="eyecolors" id="eyecolors" >
-         <option value="blackbrown">Black/Brown</option>
-         <option value="green">Green</option>
-         <option value="blue">Blue</option>
-     </select>
-     <br>
-
-     <label for="eyebrows">Select the eyebrows:</label>
-     <select name="eyebrows" id="eyebrows" >
-         <option value="curved">Curved</option>
-         <option value="straight">Straight</option>
-         <option value="angled">Angled</option>
-     </select>
-     <br>
-
-     <label for="noses">Select the nose:</label>
-     <select name="noses" id="noses" >
-         <option value="pointy">Pointy</option>
-         <option value="round">Round</option>
-     </select>
-     <br>
-
-     <label for="mouths">Select the mouth:</label>
-     <select name="mouths" id="mouths" >
-         <option value="full">Full</option>
-         <option value="thin">Thin</option>
-     </select>
-     <br>
-
-     <label for="glasses">Glasses or no glasses?:</label>
-     <select name="glasses" id="glasses" >
-         <option value="glasses">Glasses</option>
-         <option value="noglasses">No glasses</option>
-     </select>
-     <br>
-
-     <label for="hairlengths">Select the hair length:</label>
-     <select name="hairlengths" id="hairlengths" >
-         <option value="nohair">No hair</option>
-         <option value="shorthair">Short hair</option>
-         <option value="mediumhair">Medium hair</option>
-         <option value="longhair">Long hair</option>
-     </select>
-     <br>
-
-     <label for="hairtypes">Select the hair type:</label>
-     <select name="hairtypes" id="hairtypes" >
-         <option value="curly">Curly</option>
-         <option value="straight">Straight</option>
-     </select>
-     <br>
-
-     <label for="haircolors">Select the hair color:</label>
-     <select name="haircolors" id="haircolors" >
-         <option value="black">No hair</option>
-         <option value="brown">Short hair</option>
-         <option value="blonde">Medium hair</option>
-     </select>
-     <br>
-
-</body>
-
+  </body>
 </html>
